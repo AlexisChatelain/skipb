@@ -1,0 +1,58 @@
+/*------------------------CONNEXION----------------------------*/
+html{	
+font-family: Arial;
+text-align:center;
+vertical-align:middle;
+min-height: 100%;
+background-repeat:no-repeat;
+background-position: center;
+}
+/*
+body{
+position:absolute;
+top:37%;
+left:38%;
+}
+*/
+#page{
+margin-top:20%;
+min-height: 100%;
+height:100%;
+vertical-align:middle;
+}
+.connexion{
+color:white;
+}
+.bouton{
+background-image:url(bouton.png);
+color:white;
+width:250px;
+height:45px;
+font-size:140%;
+padding-top:15px;
+margin: 0 auto 2%; /*haut, droite, bas, gauche */
+}
+input {
+background: transparent;
+border: none;
+font-size:18pt;
+color:red;
+font-weight:bold;
+margin-bottom:2%;
+}
+::placeholder {
+background: transparent;
+border: none;
+font-size:18pt;
+color:red;
+font-weight:bold;
+margin-bottom:2%;
+}
+select{
+background: transparent;
+border: none;
+font-size:18pt;
+color:red;
+font-weight:bold;
+margin-bottom:2%;
+}
